@@ -9,25 +9,27 @@
 /* Begin PBXBuildFile section */
 		B48E843A2BD2A42A00CB9C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E84392BD2A42A00CB9C18 /* AppDelegate.swift */; };
 		B48E843C2BD2A42A00CB9C18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E843B2BD2A42A00CB9C18 /* SceneDelegate.swift */; };
-		B48E843E2BD2A42A00CB9C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E843D2BD2A42A00CB9C18 /* ViewController.swift */; };
+		B48E843E2BD2A42A00CB9C18 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E843D2BD2A42A00CB9C18 /* Home.swift */; };
 		B48E84412BD2A42A00CB9C18 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B48E84402BD2A42A00CB9C18 /* Base */; };
-		B48E84442BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48E84422BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld */; };
 		B48E84462BD2A42A00CB9C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48E84452BD2A42A00CB9C18 /* Assets.xcassets */; };
 		B48E84492BD2A42A00CB9C18 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B48E84482BD2A42A00CB9C18 /* Base */; };
 		B48E845A2BD2A4C400CB9C18 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E84592BD2A4C400CB9C18 /* Task.swift */; };
+		B48E845C2BD2AC9600CB9C18 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E845B2BD2AC9600CB9C18 /* TaskTableViewCell.swift */; };
+		B48E845F2BD2B06F00CB9C18 /* TaskTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48E845D2BD2B06F00CB9C18 /* TaskTracker.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B48E84362BD2A42A00CB9C18 /* TaskTracker-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TaskTracker-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48E84392BD2A42A00CB9C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B48E843B2BD2A42A00CB9C18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B48E843D2BD2A42A00CB9C18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B48E843D2BD2A42A00CB9C18 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		B48E84402BD2A42A00CB9C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B48E84432BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskTracker_MVVM.xcdatamodel; sourceTree = "<group>"; };
 		B48E84452BD2A42A00CB9C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48E84482BD2A42A00CB9C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B48E844A2BD2A42A00CB9C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B48E84592BD2A4C400CB9C18 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B48E845B2BD2AC9600CB9C18 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		B48E845E2BD2B06F00CB9C18 /* TaskTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskTracker.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,7 @@
 				B48E84452BD2A42A00CB9C18 /* Assets.xcassets */,
 				B48E84472BD2A42A00CB9C18 /* LaunchScreen.storyboard */,
 				B48E844A2BD2A42A00CB9C18 /* Info.plist */,
-				B48E84422BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld */,
+				B48E845D2BD2B06F00CB9C18 /* TaskTracker.xcdatamodeld */,
 			);
 			path = "TaskTracker-MVVM";
 			sourceTree = "<group>";
@@ -103,7 +105,7 @@
 		B48E84532BD2A47C00CB9C18 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				B48E843D2BD2A42A00CB9C18 /* ViewController.swift */,
+				B48E843D2BD2A42A00CB9C18 /* Home.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -118,6 +120,7 @@
 		B48E84552BD2A48E00CB9C18 /* table */ = {
 			isa = PBXGroup;
 			children = (
+				B48E845B2BD2AC9600CB9C18 /* TaskTableViewCell.swift */,
 			);
 			path = table;
 			sourceTree = "<group>";
@@ -208,9 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48E843E2BD2A42A00CB9C18 /* ViewController.swift in Sources */,
-				B48E84442BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld in Sources */,
+				B48E843E2BD2A42A00CB9C18 /* Home.swift in Sources */,
+				B48E845C2BD2AC9600CB9C18 /* TaskTableViewCell.swift in Sources */,
 				B48E845A2BD2A4C400CB9C18 /* Task.swift in Sources */,
+				B48E845F2BD2B06F00CB9C18 /* TaskTracker.xcdatamodeld in Sources */,
 				B48E843A2BD2A42A00CB9C18 /* AppDelegate.swift in Sources */,
 				B48E843C2BD2A42A00CB9C18 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,13 +441,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B48E84422BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld */ = {
+		B48E845D2BD2B06F00CB9C18 /* TaskTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B48E84432BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodel */,
+				B48E845E2BD2B06F00CB9C18 /* TaskTracker.xcdatamodel */,
 			);
-			currentVersion = B48E84432BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodel */;
-			path = TaskTracker_MVVM.xcdatamodeld;
+			currentVersion = B48E845E2BD2B06F00CB9C18 /* TaskTracker.xcdatamodel */;
+			name = TaskTracker.xcdatamodeld;
+			path = "/Users/cnmalper/Desktop/iOS Projects/PERSONAL PROJECTS/TaskTracker-MVVM/TaskTracker-MVVM/TaskTracker-MVVM/TaskTracker-MVVM/TaskTracker.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
