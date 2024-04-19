@@ -14,6 +14,7 @@
 		B48E84442BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B48E84422BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld */; };
 		B48E84462BD2A42A00CB9C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48E84452BD2A42A00CB9C18 /* Assets.xcassets */; };
 		B48E84492BD2A42A00CB9C18 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B48E84482BD2A42A00CB9C18 /* Base */; };
+		B48E845A2BD2A4C400CB9C18 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48E84592BD2A4C400CB9C18 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B48E84452BD2A42A00CB9C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48E84482BD2A42A00CB9C18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B48E844A2BD2A42A00CB9C18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48E84592BD2A4C400CB9C18 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		B48E84382BD2A42A00CB9C18 /* TaskTracker-MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				B48E84392BD2A42A00CB9C18 /* AppDelegate.swift */,
-				B48E843B2BD2A42A00CB9C18 /* SceneDelegate.swift */,
-				B48E843D2BD2A42A00CB9C18 /* ViewController.swift */,
+				B48E84522BD2A47800CB9C18 /* data */,
+				B48E84512BD2A46600CB9C18 /* ui */,
+				B48E84502BD2A45900CB9C18 /* delegates */,
 				B48E843F2BD2A42A00CB9C18 /* Main.storyboard */,
 				B48E84452BD2A42A00CB9C18 /* Assets.xcassets */,
 				B48E84472BD2A42A00CB9C18 /* LaunchScreen.storyboard */,
@@ -68,6 +70,71 @@
 				B48E84422BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld */,
 			);
 			path = "TaskTracker-MVVM";
+			sourceTree = "<group>";
+		};
+		B48E84502BD2A45900CB9C18 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B48E84392BD2A42A00CB9C18 /* AppDelegate.swift */,
+				B48E843B2BD2A42A00CB9C18 /* SceneDelegate.swift */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		B48E84512BD2A46600CB9C18 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B48E84552BD2A48E00CB9C18 /* table */,
+				B48E84542BD2A48600CB9C18 /* modelviews */,
+				B48E84532BD2A47C00CB9C18 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		B48E84522BD2A47800CB9C18 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				B48E84572BD2A4A600CB9C18 /* entity */,
+				B48E84562BD2A4A100CB9C18 /* repo */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		B48E84532BD2A47C00CB9C18 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				B48E843D2BD2A42A00CB9C18 /* ViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B48E84542BD2A48600CB9C18 /* modelviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = modelviews;
+			sourceTree = "<group>";
+		};
+		B48E84552BD2A48E00CB9C18 /* table */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = table;
+			sourceTree = "<group>";
+		};
+		B48E84562BD2A4A100CB9C18 /* repo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = repo;
+			sourceTree = "<group>";
+		};
+		B48E84572BD2A4A600CB9C18 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				B48E84592BD2A4C400CB9C18 /* Task.swift */,
+			);
+			path = entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +210,7 @@
 			files = (
 				B48E843E2BD2A42A00CB9C18 /* ViewController.swift in Sources */,
 				B48E84442BD2A42A00CB9C18 /* TaskTracker_MVVM.xcdatamodeld in Sources */,
+				B48E845A2BD2A4C400CB9C18 /* Task.swift in Sources */,
 				B48E843A2BD2A42A00CB9C18 /* AppDelegate.swift in Sources */,
 				B48E843C2BD2A42A00CB9C18 /* SceneDelegate.swift in Sources */,
 			);
